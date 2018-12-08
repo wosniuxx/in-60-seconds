@@ -1,13 +1,29 @@
-# Let's Get Started
+# 接口设计
 
 ---
 
-## Add Some Slide Candy
+## Rest风格介绍
+
+---
+
+@title[设计原则]
+
+REST API是围绕资源设计的
+资源具有标识符
+REST API使用统一的接口
+REST API使用无状态请求模型
+REST API由表示中包含的超媒体链接驱动
 
 ![](assets/img/presentation.png)
 
 ---
-@title[Customize Slide Layout]
+@title[成熟度模型]
+
+@ul[spaced text-white]
+- level 0：定义一个URI，所有操作都是对此URI的POST请求
+- level 1：为各个资源创建单独的URI
+- level 2：使用HTTP方法定义资源操作
+- level 3：使用超媒体（HATEOAS)
 
 @snap[west span-50]
 ## Customize Slide Content Layout
